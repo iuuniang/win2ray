@@ -1,0 +1,62 @@
+﻿// 号开头为注释行。
+// 可以文本格式指定服务器数组，每行一个服务器配置,
+// vmess 服务器每行字段依次为 address port id network path tls
+// ss 服务器每行字段依次为 address port password shadowsocks method
+// 也可以每行一个vmess://或ss://链接
+// 本文件可以直接输入json格式的服务器数组（ 服务器可以使用subscribeUrl字段指定订阅源地址，可以指定"autoConnect":false字段禁止自动连接 ）
+[
+    {
+        "address": "c26s3.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "CN2 GIA 直连",
+        "security": "auto"
+    },
+    {
+        "address": "c26s4.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "CN2 GT 直连",
+        "security": "auto"
+    },
+    {
+        "address": "c26s5.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "CN2 GT 直连",
+        "security": "auto"
+    },
+    {
+        "address": "c26s801.jamjams.net",
+        "id": "0a021043-fb2e-4ecd-8d17-e62922b3aca7",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "vmess",
+        "ps": "ChinaNet 直连丨0.1x",
+        "security": "auto"
+    },
+    {
+        "address": "c26s1.jamjams.net",
+        "id": "yjxz4ZBs8B",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "shadowsocks",
+        "ps": "CN2 GT 直连",
+        "security": "aes-256-gcm"
+    },
+    {
+        "address": "c26s2.jamjams.net",
+        "id": "yjxz4ZBs8B",
+        "network": "tcp",
+        "port": 50201,
+        "protocol": "shadowsocks",
+        "ps": "CN2 GT 直连",
+        "security": "aes-256-gcm"
+    }
+]
